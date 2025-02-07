@@ -8,7 +8,7 @@ public class NameFile {
     public void getnames(ArrayList allNames) {
 
         try {
-            Scanner namescanner = new Scanner(new File("C:\\Users\\Ahmet Eren\\Desktop\\names\\names.txt"));
+            Scanner namescanner = new Scanner(new File("/Users/egeseymen/Desktop/names.txt"));
             while (namescanner.hasNextLine()) {
                 String name = namescanner.nextLine();
                 allNames.add(name);
